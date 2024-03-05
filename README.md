@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Harvest Ease
+## Description
+This repository contains the source code for building a modern and responsive website for an Agricultural Engineering Company. The website is developed using React and styled with Tailwind CSS to provide an interactive and visually appealing user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+   - React Components: The website is built using reusable React components, providing a modular and maintainable codebase.
+
+   - Tailwind CSS: Tailwind CSS is used for styling, allowing for easy customization and consistent design throughout the site.
+
+   - Responsive Design: The website is designed to be fully responsive, ensuring a seamless experience across various devices and screen sizes.
+
+   - Optimized Performance: The code is optimized for performance, ensuring fast load times and a smooth browsing experience.
 
 ## Available Scripts
 
@@ -68,3 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Contributors
+Solomon Chamamme Nnyabe (+233)55-434-1306 <solomonchamamme@gmail.com>
