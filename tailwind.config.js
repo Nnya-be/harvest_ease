@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  purge: ['./src/**/*.html', './src/**/*.js', './src/**/*.jsx'],
+  purge: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx"],
   plugins: [],
-}
-
+};
