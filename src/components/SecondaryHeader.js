@@ -5,7 +5,7 @@ function SecondaryHeader(props) {
   return (
     <div className='flex justify-between  w-80 mx-6'>
         <span className='border-2 border-white'></span>
-        <h2 className='text-3xl font-light text-slate-100 '>{heading}</h2>
+        <h2 className='text-3xl font-semibold text-slate-100 '>{heading}</h2>
     </div>
   )
 }

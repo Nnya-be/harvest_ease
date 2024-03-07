@@ -2,7 +2,9 @@ import React from 'react'
 
 function AboutGallery() {
   return (
-    <div>About AboutGallery</div>
+    <div className='flex mx-5'>
+      <title className='text-start font-bold '>What We Do</title>
+    </div>
   )
 }
 

@@ -12,7 +12,7 @@ const item_lists = [
   },
   {
     id: "03",
-    item: "Choos Us",
+    item: "Choose Us",
   },
 ];
 const phone = +233549120744;
@@ -27,7 +27,7 @@ function Navigation() {
           })}
         </ul>
         <span>
-          <a className="text-xl bg-green-700 px-6 py-4 rounded-lg" href={`tel:${phone}`}>Contact Us </a>
+          <a className="text-xl bg-green-700 hover:bg-green-600 px-6 py-4 rounded-lg hover:text-emerald-300" href={`tel:${phone}`}>Contact Us </a>
         </span>
       </nav>
     </div>
