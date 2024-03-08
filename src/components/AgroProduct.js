@@ -3,7 +3,7 @@ import MediumHeader from "./MediumHeader";
 
 function AgroProduct () {
     return (
-        <div className=" bg-gray-200 w-lvw h-lvh">
+        <div className=" bg-gray-200 h-lvh">
             <MediumHeader heading ="Our Products"></MediumHeader> 
             </div>
     )
