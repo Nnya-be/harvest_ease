@@ -1,15 +1,17 @@
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import Header from "./components/Header";
-import AgroProduct from "./components/AgroProduct";
+import Mission from "./components/Mission";
 import Footer from "./components/Footer";
+import ChooseUs from "./components/ChooseUs";
 function App() {
   return (
     <div className="App">
       <div>
         <Header></Header>
          <AboutUs></AboutUs>
-         <AgroProduct></AgroProduct>
+         <Mission></Mission>
+         <ChooseUs></ChooseUs>
         <Footer></Footer>
       </div>
     </div>
