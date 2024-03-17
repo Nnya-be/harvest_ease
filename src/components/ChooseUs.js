@@ -39,7 +39,7 @@ const details = [
 
 function ChooseUs() {
   return (
-    <div className="h-min py-10 px-8 my-10 flex flex-col justify-between items-center">
+    <div className="h-min md:py-10 px-8 my-10 flex flex-col justify-between items-center">
       <TertiaryHeader heading="Why Choose Us"></TertiaryHeader>
       <div className="w-4/6 flex justify-center items-center">
         <LineGreen></LineGreen>
