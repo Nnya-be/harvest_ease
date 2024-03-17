@@ -39,12 +39,12 @@ const details = [
 
 function ChooseUs() {
   return (
-    <div className="h-[40rem] py-10 px-8 my-10 flex flex-col justify-between items-center">
+    <div className="h-min py-10 px-8 my-10 flex flex-col justify-between items-center">
       <TertiaryHeader heading="Why Choose Us"></TertiaryHeader>
       <div className="w-4/6 flex justify-center items-center">
         <LineGreen></LineGreen>
       </div>
-      <div className="flex justify-between w-full">
+      <div className="flex flex-col md:flex-row  justify-between w-full items-center">
         {details.map((value) => {
           return <ChooseCards key={value.id} details={value}></ChooseCards>;
         })}

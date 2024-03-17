@@ -18,16 +18,16 @@ const item_lists = [
 const phone = +233549120744;
 function Navigation() {
   return (
-    <div className="pt-5">
+    <div className="pt-5 md:max-xl:fixed md:mx-xl:top-0 md:max-xl:left-0 ">
       <nav className="flex justify-around items-center h-16">
         <img src={logo} alt="logo" className="w-48 -ml-8"></img>
-        <ul className="flex min-w-80 justify-between items-center">
+        <ul className=" invisible lg:visible hidden lg:flex flex min-w-80 justify-between items-center">
           {item_lists.map((list) => {
             return <NavList key={list.id} item={list.item}></NavList>;
           })}
         </ul>
         <span>
-          <a className="text-xl bg-green-700 hover:bg-green-600 px-6 py-4 rounded-lg hover:text-emerald-300" href={`tel:${phone}`}>Contact Us </a>
+          <a className="hidden lg:block lg:visible invisible text-xl bg-green-700 hover:bg-green-600 lg:px-6 lg:py-4 rounded-lg hover:text-emerald-300" href={`tel:${phone}`}>Contact Us </a>
         </span>
       </nav>
     </div>
