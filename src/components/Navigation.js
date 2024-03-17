@@ -18,9 +18,9 @@ const item_lists = [
 const phone = +233549120744;
 function Navigation() {
   return (
-    <div className="pt-5 md:max-xl:fixed md:mx-xl:top-0 md:max-xl:left-0 ">
-      <nav className="flex justify-around items-center h-16">
-        <img src={logo} alt="logo" className="w-48 -ml-8"></img>
+    <div className="pt-5 md:max-lg:fixed lg:flex w-lvw md:mx-lg:top-0 md:max-lg:left-0 ">
+      <nav className="flex w-full justify-around items-center h-16">
+        <img src={logo} alt="logo" className="w-[15rem] h-40 -ml-8 overflow-hidden"></img>
         <ul className=" invisible lg:visible hidden lg:flex flex min-w-80 justify-between items-center">
           {item_lists.map((list) => {
             return <NavList key={list.id} item={list.item}></NavList>;

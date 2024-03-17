@@ -10,7 +10,7 @@ const text =
 
 function AboutText() {
   return (
-    <div className="flex flex-col justify-between md:h-4/6 lg:h-5/6 xl:pr-20 items-center md:px-12 h-full lg:items-start">
+    <div className="flex flex-col justify-between lg:h-full xl:pr-20 items-center lg:px-1 md:px-12 h-full lg:items-start">
       <h4 className="text-2xl m-3 text-slate-700"> Welcome </h4>
       <TertiaryHeader heading="We make use of innovations"></TertiaryHeader>
       <LineGreen></LineGreen>

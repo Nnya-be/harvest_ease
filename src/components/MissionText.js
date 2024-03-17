@@ -11,7 +11,7 @@ const vision =
   "Our vision is a world where every farmer has access to advanced technologies that optimize their operations and contribute to sustainable agriculture.";
 function MissionText() {
   return (
-    <div className="ml-8 h-[20rem] mr-4 flex flex-col justify-between items-start text-start">
+    <div className="ml-8 md:my-8 lg:h-5/6 h-[20rem] mr-4 flex flex-col justify-between items-start text-start">
       <TertiaryHeader heading="Learn More about our mission"></TertiaryHeader>
       <LineGreen></LineGreen>
       <SectionParagraph paragraph={mission}></SectionParagraph>
