@@ -45,11 +45,12 @@ const item_lists = [
     item: "Choose Us",
   },
 ];
+
 function Footer() {
   return (
-    <div className="bg-emerald-950 flex justify-between items-center px-20 h-max py-8">
+    <div className="bg-emerald-950 flex-col lg:flex-row flex justify-between items-center px-20 h-max py-8">
       <div className="">
-        <ul className="text-lime-200 grid grid-cols-3 grid-rows-1 justify-between items-center">
+        <ul className="text-lime-200 flex  md:flex-row flex-col md:grid md:grid-cols-3 md:grid-rows-1 justify-between items-center">
           {item_lists.map((list) => {
             return <NavList key={list.id} item={list.item}></NavList>;
           })}
@@ -64,7 +65,7 @@ function Footer() {
           &copy; {new Date().getFullYear()} Harvest Ease. All rights reserved.
         </div>
       </div>
-      <div className="flex">
+      <div className="flex mt-5">
         {
             icons_lists.map((value) =>{
                 return (<img className='mr-2 contrast-50 invert w-8 brightness-50' key={value.id} src={value.icon} alt={`icon ${value.id}`}></img>)

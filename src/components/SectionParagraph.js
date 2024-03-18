@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function SectionParagraph(props) {
-    const paragraph = props.paragraph
+  const paragraph = props.paragraph;
   return (
     <>
-    <p className='text-justify text-slate-700'>{paragraph}</p>
+      <p className=" text-justify text-slate-700">{paragraph}</p>
     </>
-  )
+  );
 }
 
-export default SectionParagraph
+export default SectionParagraph;

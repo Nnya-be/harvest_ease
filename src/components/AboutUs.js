@@ -4,8 +4,8 @@ import AboutGallery from './AboutGallery'
 
 function AboutUs() {
   return (
-    <div className='p-10'>
-        <div className='h-lvh items-center px-4 py-2 grid-cols-2 grid-rows-1 gap-x-2 grid'>
+    <div className=' lg:py-16 lg:pl-2 lg:py-8 xl:p-10'>
+        <div className='lg:my-8 h-svh lg:items-center px-10 py-14 lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-2 lg:h-lvh  md:flex md:h-[35rem] lg:h-full md:justify-between md:flex-col lg:grid'>
         <AboutText></AboutText>
         <AboutGallery></AboutGallery>
         </div>
